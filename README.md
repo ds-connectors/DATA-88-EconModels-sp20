@@ -1,4 +1,4 @@
-# Data 88: EconModels
+# Data 88: EconModels (Spring 2020)
 
 This repository holds assignments for Data 88: EconModels.
 
