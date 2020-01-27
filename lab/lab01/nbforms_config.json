@@ -1,0 +1,65 @@
+{
+    "server_url": "https://data-88-nbforms.herokuapp.com/",
+    "notebook": "sp20-01",
+    "attendance": true,
+    "auth": "google",
+    "questions": [
+        {
+            "identifier": "q1",
+            "type": "multiplechoice",
+            "question": "How much would you pay for... a green tea kitkat?",
+            "options": [
+                "$0.25",
+                "$0.50",
+                "$0.75",
+                "$1.00",
+                "$1.25",
+                "$1.50",
+                "$1.75",
+                "$2.00"
+            ]
+        }, {
+            "identifier": "q2",
+            "type": "multiplechoice",
+            "question": "How much would you pay for... an organic handmade fresh local vegetables gourmet burrito?",
+            "options": [
+                "$2.50",
+                "$5.00",
+                "$7.50",
+                "$10.00",
+                "$12.50",
+                "$15.00",
+                "$17.50",
+                "$20.00"
+            ]
+        }, {
+            "identifier": "q3",
+            "type": "multiplechoice",
+            "question": "How much would you pay for... two tickets to see an awesome concert at the Greek Theater?",
+            "options": [
+                "$25",
+                "$50",
+                "$75",
+                "$100",
+                "$125",
+                "$150",
+                "$175",
+                "$200"
+            ]
+        }, {
+            "identifier": "q4",
+            "type": "multiplechoice",
+            "question": "How much would you pay for... an iPhone 12?",
+            "options": [
+                "$250",
+                "$500",
+                "$750",
+                "$1000",
+                "$1250",
+                "$1500",
+                "$1750",
+                "$2000"
+            ]
+        }
+    ]
+}

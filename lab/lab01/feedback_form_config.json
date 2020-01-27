@@ -1,0 +1,37 @@
+{
+    "server_url": "https://data-88-nbforms.herokuapp.com/",
+    "notebook": "sp20-01-feedback",
+    "attendance": false,
+    "auth": "google",
+    "questions": [
+        {
+            "identifier": "q1",
+            "type": "multiplechoice",
+            "question": "How was the pacing of the content?",
+            "options": [
+                "1 - Too slow",
+                "2",
+                "3 - Just right",
+                "4",
+                "5 - Too fast"
+            ]
+        },
+        {
+            "identifier": "q2",
+            "type": "multiplechoice",
+            "question": "How confident do you feel about today's material?",
+            "options": [
+                "1 - Confused, unclear",
+                "2",
+                "3 - Just right",
+                "4",
+                "5 - I'm a ninja master"
+            ]
+        },
+        {
+            "identifier": "q3",
+            "type": "paragraph",
+            "question": "What do you think about the material and how it was presented? Interesting, relevant, etc?"
+        }
+    ]
+}
