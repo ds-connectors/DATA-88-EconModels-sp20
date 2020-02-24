@@ -1,6 +1,6 @@
 {
     "server_url": "https://data-88-nbforms.herokuapp.com/",
-    "notebook": "sp20-03-feedback",
+    "notebook": "sp20-04-feedback",
     "attendance": true,
     "auth": "google",
     "questions": [
