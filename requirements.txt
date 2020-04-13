@@ -21,9 +21,6 @@ scikit-learn==0.21.3
 seaborn==0.9.0
 bokeh==0.12.6
 decorator==4.4.2
-networkx==2.4
-pygame==1.9.3
-nltk==3.4.5
 beautifulsoup4==4.6.0
 spacy==1.9.0
 qgrid==1.1.1
@@ -31,7 +28,6 @@ scikit-image==0.13.1
 plotly==4.0.0
 mpmath==1.1.0
 sympy==1.4
-mcautograder==0.0.5
 chart-studio==1.0.0
 csaps==0.5.0
 nb2pdf==0.2.0
