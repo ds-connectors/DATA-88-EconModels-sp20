@@ -142,8 +142,8 @@ Bully = create_player_class("Bully", bully_play)
 
 def desperate_play(self, opponent, is_p1):
     if is_p1:
-        return np.sum(np.logical_and(self.history, opponent.history)) > 0
-    return np.sum(np.logical_and(self.history, opponent.history[:-1])) > 0
+        return np.sum(np.logical_and(self.history, opponent.history)) < 1
+    return np.sum(np.logical_and(self.history, opponent.history[:-1])) < 1
 
 Desperate = create_player_class("Desperate", desperate_play)
 
@@ -187,33 +187,3 @@ def worse_and_worse_play(self, opponent, is_p1):
     return np.random.rand() <= len(self.history) / 1000
 
 WorseAndWorse = create_player_class("WorseAndWorse", worse_and_worse_play)
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
