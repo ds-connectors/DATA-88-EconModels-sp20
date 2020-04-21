@@ -1,0 +1,10 @@
+test = {   'name': 'q1_3',
+    'points': 1,
+    'suites': [   {   'cases': [   {'code': '>>> len(y_hat) == len(y)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> x.shape == (30000,)\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 0.1 <= beta <= 0.2\nTrue', 'hidden': False, 'locked': False},
+                                   {'code': '>>> 23000 <= alpha <= 25000\nTrue', 'hidden': False, 'locked': False}],
+                      'scored': True,
+                      'setup': '',
+                      'teardown': '',
+                      'type': 'doctest'}]}
